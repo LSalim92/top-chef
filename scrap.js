@@ -14,9 +14,7 @@ request("https://restaurant.michelin.fr/restaurants/france/restaurants-1-etoile-
      var link = $(this);
      var text = $(this).find('.poi_card-display-title').text();
      var href = link.attr('href');
-     //console.log(link);
-     console.log(text + " -> " + "https://restaurant.michelin.fr" + href);
-     //console.log(href);
-     //fs.appendFileSync('buzzfeed.txt', title + '\n' + author + '\n' + responses + '\n');
+
+     console.log(text + " -> " + "https://restaurant.michelin.fr" +href);
    });
-  });
+});
